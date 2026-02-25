@@ -52,7 +52,7 @@ func InitializeApplication(
 		usecase.ProvideSet,
 		middleware.ProvideSet,
 		//repository.ProvideSet,
-		//api.ProvideSet,
+		//client.ProvideSet,
 	)
 	return &Application{}
 }
